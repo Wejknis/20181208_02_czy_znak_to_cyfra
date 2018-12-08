@@ -4,10 +4,7 @@
 int main() {
     char znak = '1';
 
-    if(isDigit(znak)){
-        printf("jestem cyfrą");
-    } else{
-        printf("nie jestem cyfrą");
-    }
+    isDigit(znak)? printf("jestem cyfrą")
+                : printf("nie jestem cyfrą");
     return 0;
 }
